@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Pacifico&display=swap');
 
+/* *{
+    margin: 0;
+    padding: 0;
+} */
 nav {
     display: flex;
     justify-content: space-between;
     font-family: 'Open Sans', sans-serif;
+    margin: 0 70px;
 }
 
 nav ul {
@@ -40,10 +45,10 @@ nav>ul {
 .orange {
 
     color: #FD6E0A;
-    ;
+
 }
 
-.btn-hire {
+.btn-primary {
 
     border-radius: 5px;
     background-color: #FD6E0A;
@@ -55,4 +60,38 @@ nav>ul {
     border: none;
 }
 
-.header {}
+/* header related style */
+.header {
+    background-color: #FFF8F3;
+}
+
+.banner {
+    display: flex;
+    margin: 30px 50px 30px 30px;
+}
+
+.banner-content {
+    padding-left: 44px;
+}
+
+.profile {
+    padding-left: 190px;
+}
+
+.profile .profile-pic {
+    height: 400px;
+    width: 600px;
+    position: relative;
+    bottom: 102px;
+    left: 75px;
+}
+.greetings-title{
+    font-size: 30px;
+    font-family:'Open Sans', sans-serif; 
+    
+}
+.profile-name{
+    font-size: 35px;
+    font-weight: 700;
+    font-family:'Open Sans', sans-serif; 
+}
